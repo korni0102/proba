@@ -13,7 +13,7 @@ class Snippets extends Model
         'description',
         'row',
         'crispdm',
-        'categories_id'
+        'category_id'
     ];
 
     public function rowCategory(): BelongsTo
